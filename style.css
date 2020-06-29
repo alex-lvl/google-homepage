@@ -3,18 +3,15 @@ body {
     height: 100vh;
     width: 100%;
     margin: 0;
-    /* display: flex; */
 }
 
 ul {
     margin: 0;
-    padding: 0 0%;
-    /* display: flex; */
+    padding: 0;
     list-style: none;
 }
 
 li {
-
     display: inline;
     padding: 0 10px;
 } 
@@ -23,7 +20,6 @@ svg {
     padding: 0 5px;
     height: 20px;
     width: 20px;
-    /* justify-self: flex-end; */
 }
 
 a {
@@ -31,53 +27,24 @@ a {
     text-decoration: none;
 }
 
-#navbar{
+button {
     font-size: 0.8rem;
-    height: 5vh;
-    /* width: 100px; */
-    margin: 0 0%;
-    padding: 0.5% 1%;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    /* flex-grow: 2; */
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
 }
 
-#profile-pic {
-    padding: 0 10px;
-    height: 25px;
-    width: 25px;
-    border-radius: 100%;
-    /* justify-self: flex-end; */
-}
-
-#nav1 {
-    padding: 0 0%;
-    display: flex;
-    align-items: center;
-    flex-grow: 2;
-    justify-content: flex-end;
-    /* justify-content: flex-end; */
-    /* overflow: auto; */
-}
-
-#logo-box {
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* height: 90vh; */
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+button:hover {
+    border: 1px solid black;
 }
 
 footer {
-    font-size: 13px;
     background-color: #f2f2f2;
+    font-size: 13px;
     height: 4vh;
     width: 100%;
-    margin: 0 0%;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -86,26 +53,48 @@ footer {
     bottom: 0;
 }
 
+#navbar{
+    font-size: 0.8rem;
+    height: 5vh;
+    margin: 0;
+    padding: 0.5% 1%;
+    display: flex;
+    align-items: center;
+}
+
+#nav1 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+#profile-pic {
+    padding: 0 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+#logo-box {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #search-bar {
     border: 2px #eeeeee solid;
+    border-radius: 25px;
     padding: 2% 2%;
     margin: 5% 0;
     width: 55vh;
-    border-radius: 25px;
-    /* outline: none; */
-}
-
-button {
-    font-size: 0.8rem;
-    border: none;
-    width: 130px;
-    height: 35px;
-    border-radius: 3px;
 }
 
 #button-box {
+    width: 300px;
     display: flex;
     justify-content: space-evenly;
-    width: 300px;
 }
-
